@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  header {
+    height: 70px;
+    background-color: #252020;
+    display: flex;
+    padding: 0 100px;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    overflow: hidden;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  .Logo {
+    line-height: 80px;
+    height: 55px;
+    margin-right: 20px;
+  }
+  
+  h2 {
+    margin-top: 115px;
+    padding: 10px;
+    margin-right: 0px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(234, 234, 234);
+  }
+  
+  #search-container {
+    margin: 4px 500px;
+    display: flex;
+    align-items: center;
+  }
+  
+  #search-input {
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  #search-button {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #dedddc;
+    height: 70px;
+    line-height: 70px;
+    padding: 0 25px;
+  }
+  
+  nav ul li a:hover {
+    background-color: rgb(65, 61, 61);
+  }
+  
+  .popular-area {
+    margin-top: 50px;
+  }
+  
+  .popular-area h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .popular-area-cards {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
+  }
+  
+  .popular-area-card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s ease;
+  }
+  
+  .popular-area-card-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .popular-area-card-item img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .kost-area-populer-home {
+    display: block;
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .kost-area-populer-home:hover {
+    text-decoration: underline;
+  }
+  

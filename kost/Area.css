@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  height: 70px;
+  background-color: #252020;
+  display: flex;
+  padding: 0 100px;
+  justify-content: space-between;
+  position: fixed;
+  align-items: center;
+  overflow: hidden;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.Logo {
+  line-height: 80px;
+  height: 55px;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #dedddc;
+  height: 70px;
+  line-height: 70px;
+  padding: 0 25px;
+}
+
+nav ul li a:hover {
+  background-color: rgb(65, 61, 61);
+}
+
+.content-kost {
+  max-width: 1300px;
+  margin: 86px auto;
+  padding: 46px;
+}
+
+table{
+  
+}
+.content-kost-b1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.content-kost-b1 img {
+  width: 240px;
+  height: 135px;
+}
+
+.content-kost-b1 .nama {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.content-kost-b1 .sub-judul {
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.content-kost-b1 .harga {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+  margin-left: 500px;
+}
+

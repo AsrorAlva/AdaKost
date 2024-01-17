@@ -1,0 +1,308 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  height: 70px;
+  background-color: #252020;
+  display: flex;
+  padding: 0 100px;
+  justify-content: space-between;
+  position: fixed;
+  align-items: center;
+  overflow: hidden;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.Logo {
+  line-height: 80px;
+  height: 55px;
+  margin-right: 20px;
+}
+
+h2 {
+  margin-top: 115px;
+  padding: 10px;
+  margin-right: 0px;
+  text-align: center;
+  font-size: 18px;
+  color: rgb(234, 234, 234);
+}
+
+#search-container {
+  margin: 4px 500px;
+  display: flex;
+  align-items: center;
+}
+
+#search-input {
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+#search-button {
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #dedddc;
+  height: 70px;
+  line-height: 70px;
+  padding: 0 25px;
+}
+
+nav ul li a:hover {
+  background-color: rgb(65, 61, 61);
+}
+
+/* style.css */
+
+/* Gaya umum */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Gaya untuk div .hero-container */
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.hero-container h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.hero-container .Hands {
+  width: 200px;
+  height: auto;
+}
+
+/* Style isi Konten */
+.content-container {
+  max-width: 1300px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #323131;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.content-container h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #f5f4f4;
+}
+
+.kamar-list {
+  display: flex;
+  gap: 30px;
+  transition: transform 0.3s ease;
+}
+
+.kamar-item {
+  flex: 0 0 calc(33.333% - 20px);
+  background-color: rgb(77, 74, 74);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.kamar-item:hover {
+  transform: translateY(-5px);
+}
+
+.kamar-item h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.kamar-item p {
+  margin-bottom: 5px;
+  color: rgb(119, 119, 119);
+}
+
+.kamar-item a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.kamar-item a:hover {
+  background-color: rgb(24, 210, 30);
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: #b6c5b6;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.prev-button {
+  left: 20px;
+}
+
+.next-button {
+  right: 20px;
+}
+
+.prev-button:hover,
+.next-button:hover {
+  background-color: #45a049;
+}
+
+.prev-button::before,
+.next-button::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-left: 4px solid #fff;
+  border-right: 4px solid #fff;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  left: 50%;
+  top: 50%;
+}
+
+.next-button::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.footer {
+  background-color: #b6c5b6;
+  color: #555;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+/* testimoni */
+
+h3 {
+  text-align: center;
+  background-color: #323131;
+}
+
+.slider-container {
+  position: relative;
+  margin-top: 20px;
+  overflow: hidden; /* Tambahkan properti overflow: hidden; di sini */
+}
+
+.testimoni-list {
+  display: flex;
+  /* overflow: hidden; */ /* Hapus properti overflow: hidden; dari sini */
+}
+
+.testimoni-item {
+  flex: 0 0 300px;
+  margin-right: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.avatar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+h4 {
+  margin-bottom: 5px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.prev-button1,
+.next-button1 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: #b6c5b6;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.prev-button1 {
+  left: 20px;
+}
+
+.next-button1 {
+  right: 20px;
+}
+
+.prev-button1:hover,
+.next-button1:hover {
+  background-color: #45a049;
+}
+
+.prev-button1::before,
+.next-button1::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-left: 4px solid #fff;
+  border-right: 4px solid #fff;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  left: 50%;
+  top: 50%;
+}
+
+.next-button1::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.testimoni-list {
+  transition: transform 0.3s ease-in-out;
+}
